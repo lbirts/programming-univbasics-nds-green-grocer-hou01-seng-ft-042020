@@ -67,9 +67,8 @@ def apply_clearance(cart)
     item = cart[item_index]
     if item[:clearance] == true
       item[:price] -= (item[:price] * 0.2)
+      cart << item[:price]
     end
-    
-    cart << item[:price]
     item_index += 1
   end
   cart

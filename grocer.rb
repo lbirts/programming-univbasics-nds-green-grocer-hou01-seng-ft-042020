@@ -62,7 +62,6 @@ def apply_clearance(cart)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  def apply_clearance(cart)
   item_index = 0
   while item_index < cart.length do
     cart_item = cart[item_index]

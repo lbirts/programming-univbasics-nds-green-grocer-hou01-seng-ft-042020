@@ -80,7 +80,7 @@ end
     if item[:clearance] == true
       item[:price] -= (item[:price] * 0.2)
     end
-    cart << item
+    cart << item[:price]
     item_index += 1
   end
   cart

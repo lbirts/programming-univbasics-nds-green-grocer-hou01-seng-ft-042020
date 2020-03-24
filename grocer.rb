@@ -78,7 +78,7 @@ end
   while item_index < cart.length do
     item = cart[item_index]
     if cart[item_index][:clearance] == true
-      do item[:price] -= (item[:price] * 0.2)
+      item[:price] -= (item[:price] * 0.2)
     end
     cart << item[:price]
     item_index += 1
